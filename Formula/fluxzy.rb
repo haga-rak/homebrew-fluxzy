@@ -17,7 +17,8 @@ class Fluxzy < Formula
   end
 
   def install
-    bin.install "fluxzy"
+    libexec.install Dir["*"]
+    bin.install_symlink libexec/"fluxzy"
   end
 
   test do
