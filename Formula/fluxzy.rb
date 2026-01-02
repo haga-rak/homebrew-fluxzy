@@ -2,17 +2,17 @@ class Fluxzy < Formula
   desc "MITM engine for intercepting, recording, and altering HTTP/1.1, H2, and WebSocket traffic"
   homepage "https://www.fluxzy.io"
   license "EUPL-1.2"
-  version "1.31.32.55597"
+  version "1.32.1.37789"
 
   on_macos do
     on_intel do
-      url "https://github.com/haga-rak/fluxzy.core/releases/download/v1.31.32.55597/fluxzy-cli-1.31.32.55597-osx-x64.tar.gz"
-      sha256 "056dfb52a7242e446abaf22a95922f5badbe979efcde2776f03579e251d8b8e8"
+      url "https://github.com/haga-rak/fluxzy.core/releases/download/v1.32.1.37789/fluxzy-cli-1.32.1.37789-osx-x64.tar.gz"
+      sha256 "d02374888cbdcb5d2dc0376c7e53ebe58138943dbf58680ed61b31286a181ad6"
     end
 
     on_arm do
-      url "https://github.com/haga-rak/fluxzy.core/releases/download/v1.31.32.55597/fluxzy-cli-1.31.32.55597-osx-arm64.tar.gz"
-      sha256 "a1795b00b4245509b2d5888cbd55210d37840310bcc9bf6b1d48e1672440772b"
+      url "https://github.com/haga-rak/fluxzy.core/releases/download/v1.32.1.37789/fluxzy-cli-1.32.1.37789-osx-arm64.tar.gz"
+      sha256 "73e00a129108afe60841a8fb8ccdb83492d636f2316d62f056d57d4869b94806"
     end
   end
 
